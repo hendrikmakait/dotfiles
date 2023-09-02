@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+SYSTEM_TYPE=$(uname -s)
+
+if [ "$SYSTEM_TYPE" = "Darwin" ]; then
+
+  # install homebrew if it's missing
+  if ! command -v brew >/dev/null 2>&1; then
+    echo "Installing homebrew..."
+    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  else
+    echo "Updating homebrew..."
+    # Add brew to the path for this session
+    eval "$(/opt/homebrew/bin/brew shellenv)"
+    brew update
+  fi
+
+fi
+

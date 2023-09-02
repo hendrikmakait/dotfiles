@@ -1,0 +1,7 @@
+GitHub.vscode-pull-request-github
+ms-python.python
+ms-python.vscode-pylance
+redhat.vscode-yaml
+shuworks.vscode-table-formatter
+vscodevim.vim
+

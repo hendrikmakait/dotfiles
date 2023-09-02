@@ -1,0 +1,6 @@
+# Install extensions
+echo "Installing Visual Studio Code extensions..."
+for ext in $(cat $HOME/.config/vscode/extensions.txt); do
+  code --install-extension "$ext"
+done
+
