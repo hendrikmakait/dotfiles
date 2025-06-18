@@ -1,7 +1,6 @@
 [user]
 	name = Hendrik Makait
 	email = hendrik@makait.com
-
 [url "git@github.com:"]
 	insteadOf = "https://github.com/"
 [branch]
