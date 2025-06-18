@@ -1,3 +1,4 @@
+brew "eza"
 brew "git"
 brew "zsh"
 brew "htop"
