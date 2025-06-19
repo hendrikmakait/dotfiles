@@ -17,6 +17,7 @@ cask "1password"
 cask "1password-cli"
 cask "brainfm"
 cask "cursor"
+cask "font-fira-code-nerd-font"
 cask "google-chrome"
 cask "iterm2"
 cask "obsidian"
@@ -30,4 +31,7 @@ cask "visual-studio-code"
 cask "zoom"
 
 cask "nikitabobko/tap/aerospace"
+
+# DataFusion
+brew "protobuf"
 
